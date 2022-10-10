@@ -3,8 +3,8 @@
   "version": "1.0.1",
   "private": true,
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
+    "dev": "THEME_KEY=indigone astro dev",
+    "build": "THEME_KEY=indigone astro build",
     "check": "astro check",
     "postbuild": "node ./scripts/search/prepare-index.js",
     "preview": "astro preview"
